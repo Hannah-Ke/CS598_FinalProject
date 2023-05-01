@@ -1,8 +1,9 @@
->📋  A template README.md for code accompanying a Machine Learning paper
+>📋  
 
-# My Paper Title
+# Knowledge Source Integration on Medical Code Prediction
 
-This repository is the official implementation of [Knowledge Source Integration on Medical Code Prediction]([https://arxiv.org/abs/2030.12345](https://dl.acm.org/doi/10.1145/3308558.3313485)). 
+This repository is the official implementation of [Knowledge Source Integration on Medical Code Prediction](https://dl.acm.org/doi/10.1145/3308558.3313485). 
+This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
