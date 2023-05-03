@@ -12,7 +12,6 @@ To install requirements:
 
 ```setup
 pip install numpy scikit-learn stop-words
-
 ```
 
 >📋  1. Install Python3  2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn. 3. Download the two datasets needed for this code: NOTEEVENTS.csv and DIAGNOSES_ICD.csv. These datasets can be                   downloaded from the MIMIC-III database.
@@ -24,7 +23,10 @@ You can download pretrained models here:
 
 - [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
 
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+>📋  1. Download the two CSV files, "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv"
+     2. Place the two CSV files in the same directory as the following files and directories: IDlist.npy,          wikipedia_knowledge, p1, p2 and p3.
+     3. Run the following commands in order to preprocess the data: python3 p1, python3 p2, and python3 p3.
+     4. Once these scripts have completed running, the fully preprocessed dataset ready for use.
 
 ## Training
 
