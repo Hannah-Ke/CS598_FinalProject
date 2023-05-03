@@ -11,7 +11,8 @@ This repository is the official implementation of [Knowledge Source Integration 
 To install requirements:
 
 ```setup
-pip install stop-words numpy scikit-learn
+pip install torch==0.4.1 numpy==1.15.1 scikit-learn==0.19.2 torch==0.4.1
+
 ```
 
 >📋  1. Install Python3  2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn. 3. Download the two datasets needed for this code: NOTEEVENTS.csv and DIAGNOSES_ICD.csv. These datasets can be                   downloaded from the MIMIC-III database.
