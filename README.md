@@ -15,8 +15,8 @@ pip install stop-words numpy scikit-learn
 ```
 
 >📋  
->.   1. Install Python3  
-     2. Install packages using pip. The following packages needs: stop-words, numpy, codecs.
+>    1. Install Python3  
+     2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn.
 
 
 ## Data Processing
