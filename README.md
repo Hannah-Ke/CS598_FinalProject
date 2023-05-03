@@ -25,7 +25,7 @@ You can download two CSV files here:
 
 >📋  1. Download the two CSV files, "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv"
      2. Place the two CSV files in the same directory as the following files and directories: IDlist.npy,          wikipedia_knowledge, p1, p2 and p3.
-     3. Run the following commands in order to preprocess the data: python3 p1, python3 p2, and python3 p3.
+     3. Run the following commands in order to preprocess the data: python3 p1.py, python3 p2.py, and python3 p3.py
      4. Once these scripts have completed running, the fully preprocessed dataset ready for use.
 
 ## Training
