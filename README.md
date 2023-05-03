@@ -11,7 +11,7 @@ This repository is the official implementation of [Knowledge Source Integration 
 To install requirements:
 
 ```setup
-pip install torch==0.4.1 numpy==1.15.1 scikit-learn==0.19.2 torch==0.4.1
+pip install numpy==1.15.1 scikit-learn==0.19.2 stop-words
 
 ```
 
