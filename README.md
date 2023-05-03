@@ -20,8 +20,8 @@ pip install numpy scikit-learn stop-words
 ## Data Processing
 
 You can download two CSV files here:
-- [DIAGNOSES_ICD.csv](https://drive.google.com/drive/u/0/my-drive](https://drive.google.com/file/d/1VG51aodS4omPDcIv6m2oQFnjxZwRawmc/view?usp=sharing)
 - [NOTEEVENTS.csv](https://drive.google.com/file/d/13fs4Zn-LyOtqBHgp0V9FN8PQi3LIMN53/view?usp=sharing)
+- [DIAGNOSES_ICD.csv](https://drive.google.com/file/d/1VG51aodS4omPDcIv6m2oQFnjxZwRawmc/view?usp=sharing)
 
 >📋  1. Download the two CSV files, "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv"
      2. Place the two CSV files in the same directory as the following files and directories: IDlist.npy,          wikipedia_knowledge, p1, p2 and p3.
