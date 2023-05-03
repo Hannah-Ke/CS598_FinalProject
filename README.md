@@ -11,7 +11,7 @@ This repository is the official implementation of [Knowledge Source Integration 
 To install requirements:
 
 ```setup
-pip install numpy==1.15.1 scikit-learn==0.19.2 stop-words
+pip install numpy scikit-learn stop-words
 
 ```
 
