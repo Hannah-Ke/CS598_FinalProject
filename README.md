@@ -14,7 +14,8 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+>📋  1. Install Python3
+     2. Install packages using pip. The following packages needs: stop-words, numpy, codecs.
 
 ## Data Processing
 
