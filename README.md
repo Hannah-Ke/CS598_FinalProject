@@ -11,10 +11,10 @@ This repository is the official implementation of [Knowledge Source Integration 
 To install requirements:
 
 ```setup
-pip install -r requirements.txt
+pip install stop-words numpy codecs
 ```
 
->📋  1. Install Python3
+>📋  1. Install Python3 \n
      2. Install packages using pip. The following packages needs: stop-words, numpy, codecs.
 
 ## Data Processing
