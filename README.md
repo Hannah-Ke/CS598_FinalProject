@@ -14,10 +14,7 @@ To install requirements:
 pip install stop-words numpy scikit-learn
 ```
 
->📋  
->    1. Install Python3  
-     2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn.
-     3. Download the two datasets needed for this code: NOTEEVENTS.csv and DIAGNOSES_ICD.csv. These datasets can be                   downloaded from the MIMIC-III database.
+>📋  1. Install Python3  2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn. 3. Download the two datasets needed for this code: NOTEEVENTS.csv and DIAGNOSES_ICD.csv. These datasets can be                   downloaded from the MIMIC-III database.
 
 
 ## Data Processing
