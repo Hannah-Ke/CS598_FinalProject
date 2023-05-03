@@ -19,7 +19,9 @@ pip install numpy scikit-learn stop-words
 
 ## Data Processing
 
-You can download pretrained models here:
+You can download two CSV files here:
+- [DIAGNOSES_ICD.csv](https://drive.google.com/drive/u/0/my-drive)
+- [NOTEEVENTS.csv](https://drive.google.com/file/d/13fs4Zn-LyOtqBHgp0V9FN8PQi3LIMN53/view?usp=sharing)
 
 - [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
 
