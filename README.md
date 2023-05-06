@@ -4,7 +4,8 @@
 
 This repository is the official implementation of [Knowledge Source Integration on Medical Code Prediction](https://dl.acm.org/doi/10.1145/3308558.3313485).
 
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+>📋  The article titled "Improving Medical Code Prediction from Clinical Text via Incorporating Online Knowledge Sources" discusses the importance of translating clinical notes into a standardized format that can be read by computers. This process is typically performed by trained staff and is both time-consuming and expensive. To address this problem, there is a growing interest in developing automatic code assignment models. However, it remains a challenge to fully automate the process. This article proposes a solution to address this challenge. This paper discussed the end-to-end framework called Knowledge Source Integration (KSI), which enables the incorporation of external knowledge while training a model. 
+[Demo Link](https://google.com). 
 
 ## Requirements
 
