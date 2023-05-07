@@ -1,5 +1,3 @@
-
-
 # Knowledge Source Integration on Medical Code Prediction
 
 This repository is the official implementation of [Knowledge Source Integration on Medical Code Prediction](https://dl.acm.org/doi/10.1145/3308558.3313485).
@@ -44,18 +42,18 @@ KSI_LSTM_RZ_20230507.py
 ```
 3.The evaluation metrics will show up automatically after the model run
 
-To evaluate my model on ImageNet, run:
-
 ## Results
 
 Our model achieves the following performance on :
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
-
+| Evaluation    | CNN Alone | CNN + KSI | LSTM Alone| LSTM + KSI|
+| ------------- | --------- | --------- | --------- | --------- |
+| Test loss     |  0.0387   |  0.0366   |  0.0341   |  0.0318   |
+| Top 10 acc    |  0.7553   |  0.7801   |  0.7617   |  0.7901   |
+| Macro AUC     |  0.8323   |  0.8659   |  0.8360   |  0.8710   |
+| Micro AUC     |  0.9675   |  0.9737   |  0.9687   |  0.9758   |
+| Macro F1      |  0.2199   |  0.2447   |  0.1996   |  0.2471   |
+| Micro F1      |  0.6289   |  0.6445   |  0.6423   |  0.6552   |
 
 ## Contributing
 
