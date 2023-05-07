@@ -54,7 +54,3 @@ Our model achieves the following performance on :
 | Micro AUC     |  0.9675   |  0.9737   |  0.9687   |  0.9758   |
 | Macro F1      |  0.2199   |  0.2447   |  0.1996   |  0.2471   |
 | Micro F1      |  0.6289   |  0.6445   |  0.6423   |  0.6552   |
-
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
