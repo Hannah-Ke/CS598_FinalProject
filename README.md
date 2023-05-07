@@ -9,54 +9,46 @@ This repository is the official implementation of [Knowledge Source Integration 
 
 ## Requirements
 
-To install requirements:
-
+1. Install Python3, enable Cuda on the machine.  <br>
+2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn. <br>
 ```setup
 pip install numpy scikit-learn stop-words
 ```
-
->📋  1. Install Python3  
->    2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn. 
->    3. Download the two datasets needed for this code: NOTEEVENTS.csv and DIAGNOSES_ICD.csv. These datasets can be downloaded from the MIMIC-III database.
+3. Download the two datasets needed for this code: NOTEEVENTS.csv and DIAGNOSES_ICD.csv. These datasets can be downloaded from the MIMIC-III database.
 
 
 ## Data Processing
 
-You can download two CSV files here:
+1. Download the two CSV files, "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv" <br>
+```setup
+  You can download two CSV files here:
 - [NOTEEVENTS.csv](https://drive.google.com/file/d/13fs4Zn-LyOtqBHgp0V9FN8PQi3LIMN53/view?usp=sharing).
 - [DIAGNOSES_ICD.csv](https://drive.google.com/file/d/1VG51aodS4omPDcIv6m2oQFnjxZwRawmc/view?usp=sharing).
-
->📋  1. Download the two CSV files, "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv"
-     2. Place the two CSV files in the same directory as the following files and directories: IDlist.npy,          wikipedia_knowledge, p1, p2 and p3.
-     3. Run the following commands in order to preprocess the data: python3 p1.py, python3 p2.py, and python3 p3.py
-     4. Once these scripts have completed running, the fully preprocessed dataset ready for use.
+```
+2. Place the two CSV files in the same directory as the following files and directories: IDlist.npy, wikipedia_knowledge, p1, p2 and p3. <br>
+3. Run the following commands in order to preprocess the data: 
+``` setup
+python3 p1.py, python3 p2.py, and python3 p3.py  
+```
+4. Once these scripts have completed running, the fully preprocessed dataset ready for use.  <br>
 
 ## Training
 
-To train the model(s) in the paper, run this command:
-
+1.To train the CNN and KSI+CNN models in the paper, run this command:
 ```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
+python KSI_CNN_RZ_20230506.py
 ```
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
-
-## Evaluation
+2.To train the RNN and KSI+RNN (LSTM) models in the paper, run this command:
+```train
+KSI_LSTM_RZ_20230507.py
+```
+3.The evaluation metrics will show up automatically after the model run
 
 To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
-
 
 ## Results
 
 Our model achieves the following performance on :
-
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
 | Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | ------------------ |---------------- | -------------- |
