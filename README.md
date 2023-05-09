@@ -7,8 +7,8 @@ This repository is the official implementation of [Knowledge Source Integration 
 
 ## Requirements
 
-1. Install Python3, enable Cuda on the machine.  <br>
-2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn. <br>
+1. Install Python3, enable Cuda on the machine.  
+2. Install packages using pip. The following packages needs: stop-words, numpy, scikit-learn. 
 ```setup
 pip install numpy scikit-learn stop-words
 ```
@@ -17,18 +17,18 @@ pip install numpy scikit-learn stop-words
 
 ## Data Processing
 
-1. Download the two CSV files, "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv" <br>
+1. Download the two CSV files, "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv" 
 ```setup
   You can download two CSV files here:
 - [NOTEEVENTS.csv](https://drive.google.com/file/d/13fs4Zn-LyOtqBHgp0V9FN8PQi3LIMN53/view?usp=sharing).
 - [DIAGNOSES_ICD.csv](https://drive.google.com/file/d/1VG51aodS4omPDcIv6m2oQFnjxZwRawmc/view?usp=sharing).
 ```
-2. Place the two CSV files in the same directory as the following files and directories: IDlist.npy, wikipedia_knowledge, p1, p2 and p3. <br>
+2. Place the two CSV files in the same directory as the following files and directories: IDlist.npy, wikipedia_knowledge, p1, p2 and p3.
 3. Run the following commands in order to preprocess the data: 
 ``` setup
 python3 p1.py, python3 p2.py, and python3 p3.py  
 ```
-4. Once these scripts have completed running, the fully preprocessed dataset ready for use.  <br>
+4. Once these scripts have completed running, the fully preprocessed dataset ready for use. 
 
 ## Training
 
@@ -44,7 +44,7 @@ KSI_LSTM_RZ_20230507.py
 
 ## Results
 
-Our model achieves the following performance on :
+Our model achieves the following performance:
 
 | Evaluation    | CNN Alone | CNN + KSI | LSTM Alone| LSTM + KSI|
 | ------------- | --------- | --------- | --------- | --------- |
