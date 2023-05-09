@@ -32,15 +32,15 @@ python3 p1.py, python3 p2.py, and python3 p3.py
 
 ## Training
 
-1.To train the CNN and KSI+CNN models in the paper, run this command:
+1. To train the CNN and KSI+CNN models in the paper, run this command:
 ```train
 python KSI_CNN_RZ_20230506.py
 ```
-2.To train the RNN and KSI+RNN (LSTM) models in the paper, run this command:
+2. To train the RNN and KSI+RNN (LSTM) models in the paper, run this command:
 ```train
 KSI_LSTM_RZ_20230507.py
 ```
-3.The evaluation metrics will show up automatically after the model run
+3. The evaluation metrics will show up automatically after the model run
 
 ## Results
 
