@@ -28,7 +28,7 @@ pip install numpy scikit-learn stop-words
 ``` setup
 python3 p1.py, python3 p2.py, and python3 p3.py  
 ```
-4. Once these scripts have completed running, the fully preprocessed dataset ready for use. 
+4. Once these scripts have completed running, the fully preprocessed datasets end with .npy will be ready for use. 
 
 ## Training
 
